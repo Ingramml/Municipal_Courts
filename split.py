@@ -1,6 +1,6 @@
 import csv
 """ For geocoded resutls where lat and long are on columm. 
-Splits into sepeate colums based on casenumber"""
+Splits into sepeate colums based on casenumber files from https://geocoding.geo.census.gov/"""
 
 with open('splitfile.csv', 'r') as split_file:
 	csv_reader = csv.reader(split_file, delimiter=',')
