@@ -21,7 +21,7 @@ Developed on OSX not tested on any windows machine
 
 #File to be processed
 
-file='/Users/michael/Documents/pmc1416files/pmc201416needtogeocode.csv'
+file='/Volumes/SCANS/pmc0818files/pmc200818needtogeocode.csv'
 togeocode=file.find('needtogeocode.csv')
 dirname=os.path.dirname(file)
 processedfile=file[:togeocode]+'processed.csv'
